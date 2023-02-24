@@ -436,22 +436,22 @@ nav .links-btn{
     }
 
     .text-content{
-        width: 100%;
+        width: 102%;
         height: 45vh;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        background-color:rgba(33, 33, 33, 0.35) ;
-        margin: 0px;
+        background-color: rgba(33, 33, 33, 0.35);
+        margin: -22px;
     }
 
     .home-contener{
-        width: 100%;
+        width: 115%;
         margin: 0px;
         position: static;
         transform: translate(0px,70px);
-        background-image: url(../imags/images/city-silhouette-pedestrians-zebra-crossing-public-transport-cyclists-illustration-city-silhouette-240754938.jpg);
+        background-image: url(../imags/images/weloce.svg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: top right;
@@ -467,7 +467,6 @@ nav .links-btn{
         color: white;
         padding: 0px 20px ;
         font-size: 2.5rem;
-        border: 1px solid #fff;
     }
 
     .text-content p{
@@ -491,7 +490,7 @@ nav .links-btn{
 @media(max-width:720px){
 
     .main .call-weak{
-        bottom: 170px;
+        bottom: 150px;
         position: absolute;
         left: 28%;
         transform: translatex(-20%);
